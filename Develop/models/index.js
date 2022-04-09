@@ -9,7 +9,7 @@ Product.belongsTo(Category, {
   foreignKey: 'category_id'
 })
 // Categories have many Products
-Category.belongsToMany(Product, {
+Category.hasMany(Product, {
   foreignKey: 'product_id'
 })
 // Products belongToMany Tags (through ProductTag)
@@ -22,7 +22,7 @@ Product.belongsToMany(Tag, {
 // Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(Product, {
   through: {
-    model: ProductTag
+    model: ProductTag,
   },
   foreignKey: 'tag_id'
 })
