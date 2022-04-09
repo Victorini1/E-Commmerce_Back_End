@@ -11,6 +11,9 @@
   - [Usage](#usage)
  
  
+ ## Walkthrough Video
+ https://drive.google.com/file/d/1MsnC-6_WvnQHe3KbB5o34Qpxwy6x_7FC/view
+ 
   ## Installation Instructions
   Use of the Sequelize, mysql2, and express packages are needed to run the application. 
 
